@@ -6,6 +6,7 @@ import {
   ProductsTitle,
 } from "./ProductsContainerStyles";
 import { useSpring, useTransform } from "framer-motion";
+import ButtonBestSeller from "../UI/ButtonBestSeller/ButtonBestSeller";
 
 function ProductsContainer({ array, scroll }) {
   const arrayProp = array;
@@ -34,6 +35,7 @@ function ProductsContainer({ array, scroll }) {
           return <CardProducts key={element.id} {...element} />;
         })}
       </ProductsBox>
+      <ButtonBestSeller />
     </ContainerBox>
   );
 }

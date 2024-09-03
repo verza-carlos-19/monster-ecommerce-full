@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
       <Inner>
-        {/* <Header /> */}
+        <Header />
         <Hero />
         {/* <BestSellers /> */}
         <ProductsContainer

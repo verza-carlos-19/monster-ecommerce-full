@@ -1,0 +1,28 @@
+Requisitos de aprobación:
+
+En primera medida, la web que entreguen deberá contar con la funcionalidades pedidas en las entregas 1, 2 y 3 , estas eran:
+
+👉 Header con su navbar funcional en responsive con API Context.
+👉 Hero representativo de su página.
+👉 Sección de cards con productos destacados que lleve a la página de productos de alguna manera (por ejemplo, un botón).
+👉 Footer.
+👉 Una página de "Sobre nosotros".
+👉 Una página de "Productos" , con los productos renderizados dinámicamente, lógica de filtros, agregado de productos al carrito, manejo de cantidades en carrito y la posibilidad de vaciar el carrito, borrar individualmente cada producto y realizar compra(Todas estas acciones deben tener un modal de confirmación).
+👉 Una sección de contacto en la cual tienen que tener al menos un formulario de contacto con los campos "nombre", "apellido" , "email" y "asunto".
+👉 Todas las páginas vinculadas entre si mediante React Router.
+👉 Diseño responsive de todas las páginas.
+
+ Se debe deployar el proyecto en Vercel.
+
+
+Finalmente, como desafío final para el proyecto, deberán:
+
+👉Utilizando Formik, deberán realizar la validación del formulario de contacto. El mismo no debe enviar nada, pero si cumplir con la validación de manera correcta de cada uno de los campos y renderizar un mensaje de envio correcto en caso de que todos los campos pasen dicha validación.
+👉 Agregar la funcionalidad de persistencia de datos (productos del carrito) a nuestra app web.
+
+En caso de que quieran agregar algo extra al proyecto y sientan ganas de afrontar un desafío, les dejamos algunas tareas OPCIONALES que pueden agregar:
+👉 Migrar el context del menú a Redux Toolkit.
+👉 Agregar un sistema de login y registro.
+👉 Agregar una página de checkout al realizar la compra.
+👉 Agregar una página de producto para cada producto individual
+👉 Agregar envio de mail desde el formulario de contacto, usando API's como emailJS.

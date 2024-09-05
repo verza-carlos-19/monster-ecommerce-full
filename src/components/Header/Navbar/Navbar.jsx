@@ -1,10 +1,24 @@
 import React from "react";
-import { NavbarBox } from "./NavbarStyles";
+import {
+  ItemList,
+  NavbarBox,
+  NavbarContentBox,
+  NavbarList,
+} from "./NavbarStyles";
 
 function Navbar() {
   return (
     <>
-      <NavbarBox>Navbar</NavbarBox>
+      <NavbarBox>
+        <NavbarContentBox>
+          <NavbarList>
+            <ItemList>HOME</ItemList>
+            <ItemList>ABOUT</ItemList>
+            <ItemList>PRODUCTS</ItemList>
+            <ItemList>LOG IN</ItemList>
+          </NavbarList>
+        </NavbarContentBox>
+      </NavbarBox>
     </>
   );
 }
